@@ -44,7 +44,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>http://gutenberg.net.au/ebooks02/0200421h.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001028397</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The PG Australia transcription put all of the blockquotes in a single paragraph, so the original paragraph breaks had to be added. The thematic breaks were also all missing and had to be added.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/An_American_Tragedy</meta>

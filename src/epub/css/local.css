@@ -6,9 +6,47 @@ p.thoughts {
 	margin: 1em 0;
 }
 
+/* location-specific */
+#chapter-1-2 blockquote p{
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	text-indent: 0;
+}
+
+#chapter-1-2 blockquote p > em{
+	font-style: italic;
+	font-variant: initial;
+}
+
+#chapter-2-24 blockquote,
+#chapter-2-42 blockquote:nth-of-type(5),
+#chapter-3-8 blockquote:first-of-type{
+	text-align: center;
+}
+
+#chapter-3-17 blockquote > header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#chapter-3-17 blockquote:nth-of-type(2) p,
+#chapter-3-17 blockquote:nth-of-type(3) p,
+#chapter-3-23 blockquote p{
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	text-align: center;
+	text-indent: 0;
+}
+/* end of location-specific */
+
 /* letters */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	text-align: initial;
 }
 
 footer{

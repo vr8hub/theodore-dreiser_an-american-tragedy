@@ -18,6 +18,12 @@ p.thoughts {
 	font-variant: initial;
 }
 
+#chapter-2-3 p[epub|type~="z3998:signature"]{
+	border-bottom: 2px black solid;
+	margin-left: 60vw;
+	padding-bottom: .5em;
+}
+
 #chapter-2-24 blockquote,
 #chapter-2-42 blockquote:nth-of-type(5),
 #chapter-3-8 blockquote:first-of-type{

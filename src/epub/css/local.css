@@ -7,6 +7,7 @@ p.thoughts{
 }
 
 /* location-specific */
+/* Bible verses */
 #chapter-1-2 blockquote p{
 	font-variant: small-caps;
 	margin-bottom: .5em;
@@ -18,30 +19,35 @@ p.thoughts{
 	font-variant: initial;
 }
 
+/* line in letter instead of real name (mentioned in text) */
 #chapter-2-3 p[epub|type~="z3998:signature"]{
 	border-bottom: 2px black solid;
 	margin-left: 60vw;
 	padding-bottom: .5em;
 }
 
+/* invitation, newspaper headlines */
 #chapter-2-24 blockquote,
 #chapter-2-42 blockquote:nth-of-type(5),
 #chapter-3-8 blockquote:first-of-type{
 	text-align: center;
 }
 
+/* bird-sounds */
 #chapter-2-47 hr:first-of-type + p,
 #chapter-2-47 hr:nth-of-type(3) + p,
 #chapter-2-47 hr:nth-of-type(9) + p{
 	text-indent: 1em;
 }
 
+/* newspaper headline */
 #chapter-3-17 blockquote > header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
 	text-align: center;
 }
 
+/* more headlines */
 #chapter-3-17 blockquote:nth-of-type(2) p,
 #chapter-3-17 blockquote:nth-of-type(3) p,
 #chapter-3-23 blockquote p{

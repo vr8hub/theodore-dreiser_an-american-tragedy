@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="chapter-2-21.xhtml">
-		<ignore>
-			<code>t-007</code>
-			<reason>The name of the magazine was Munsey’s.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>

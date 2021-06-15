@@ -30,12 +30,21 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">An American Tragedy</dc:title>
 		<meta property="file-as" refines="#title">American Tragedy, An</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Traingles (Interpersonal relations)--Fiction</dc:subject>
+		<dc:subject id="subject-2">Trials (Murder)--Fiction</dc:subject>
+		<dc:subject id="subject-3">Social classes--Fiction</dc:subject>
+		<dc:subject id="subject-4">Young men--Fiction</dc:subject>
+		<dc:subject id="subject-5">New York (State)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008112615</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
+		<meta property="term" refines="#subject-2">sh2008112616</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008111427</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008114024</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008108411</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
@@ -44,7 +53,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>http://gutenberg.net.au/ebooks02/0200421h.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001028397</dc:source>
-		<meta property="se:production-notes">The PG Australia transcription put all of the blockquotes in a single paragraph, so the original paragraph breaks had to be added. The thematic breaks were also all missing and had to be added.</meta>
+		<meta property="se:production-notes">At the time of production, no US transcription existed, so a Project Gutenberg Australia transcription was used and compared against a US PD scan. The PG Australia transcription put all of the text for each blockquote (letters, etc.) into a single paragraph, so the original paragraph breaks had to be added to each. All the thematic breaks were also missing and had to be added.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/An_American_Tragedy</meta>
@@ -60,9 +69,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Frederick_Kensett</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84023637</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Don Lainson</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lainson, Don</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>

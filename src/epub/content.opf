@@ -46,9 +46,13 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008108411</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">16</meta>
+		<dc:description id="description">A young man in a relationship with a young woman decides he wants someone else, of a higher social class.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Clyde Griffith’s parents are poor street-preachers, but Clyde doesn’t “believe,” and finds their work demeaning. At fifteen he gets a job and starts to ease out of their lives, eventually landing in some trouble that causes him to flee the town where they live. Two years later, Clyde meets his well-off uncle, who owns a large factory in upstate New York. Clyde talks his way into a job at the factory, and soon finds himself supervising a roomful of women. All alone, generally shunned by his uncle’s family, and starved for companionship, he breaks the factory’s rules and begins a relationship with a young woman who works for him. But Clyde has visions of marrying a high-society woman, and fortune smiles on him in the form of the daughter of one of his uncle’s neighbors. Soon Clyde finds himself in a love triangle of his own making, and one from which he seems incapable of extracting himself.&lt;/p&gt;
+			&lt;p&gt;A newspaperman before he became a novelist, &lt;a href="https://standardebooks.org/ebooks/theodore-dreiser"&gt;Theodore Dreiser&lt;/a&gt; collected crime stories for years of young men in relationships with young women of poorer means, where the young men found a richer, prettier girl who would go with him, and often took extreme measures to escape from the first girl. &lt;i&gt;An American Tragedy&lt;/i&gt;, based on one of the most infamous of those real-life stories, is a study in lazy ambition, the very real class system in America, and how easy it is to drift into evil. It is populated with poor people who desire nothing more than to be rich, rich people whose only concern is keep up with their neighbors and not be associated with the “wrong element,” and elements of both who care far more about appearances than reality. It offers further evidence that the world may be very different from 100 years ago, but the people in it are very much the same.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>http://gutenberg.net.au/ebooks02/0200421h.html</dc:source>
